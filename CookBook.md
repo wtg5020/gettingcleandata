@@ -39,3 +39,10 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 ##Transformations
 
 The transformations on the data were to eliminate any unnecessary data points (energy, entropy, etc) and to merge the data files into once concise dataset. Also transformations were done to tidy up the naming conventions for the columns
+
+In a high level the transformations were made in this order:
+1. Merge train and test datasets into one
+2. Extract meand and stddev for each measurement
+3. Activity names added
+4. Column labels cleaned
+5. data set generated to working directory
