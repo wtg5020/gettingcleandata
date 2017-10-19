@@ -1,7 +1,7 @@
-##Cook Book Getting and Cleaning Data Course Project
+## Cook Book Getting and Cleaning Data Course Project
 William Griffith
 
-##Background
+## Background
 The dataset for this course was collected from a study leveraging the accelerometers from the Samsung Galaxy S smartphone, this was documented for each user who did 5 different actions listed below
 Actions:
 Walking
@@ -31,12 +31,12 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-##Data
+## Data
 
 The background of this study and a data export can be found at the below url:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-##Transformations
+## Transformations
 
 The transformations on the data were to eliminate any unnecessary data points (energy, entropy, etc) and to merge the data files into once concise dataset. Also transformations were done to tidy up the naming conventions for the columns
 
